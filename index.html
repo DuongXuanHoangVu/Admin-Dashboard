@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1 class="sidebar-header">
+                <span class="sidebar-header-icon mdi mdi-view-dashboard"></span>
+                <span class="sidebar-header-title">Dashboard</span>
+            </h1>
+            <ul class="menu-list">
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-home"></span>
+                    <span class="item-title">Home</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-card-account-details-outline"></span>
+                    <span class="item-title">Profile</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-message-reply"></span>
+                    <span class="item-title">Messages</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-clock"></span>
+                    <span class="item-title">History</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-file-multiple"></span>
+                    <span class="item-title">Tasks</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-account-group"></span>
+                    <span class="item-title">Communities</span>
+                </li>
+                <li class="list-item item-margin">
+                    <span class="item-icon mdi mdi-cog"></span>
+                    <span class="item-title">Setting</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-help-box"></span>
+                    <span class="item-title">Support</span>
+                </li>
+                <li class="list-item">
+                    <span class="item-icon mdi mdi-shield-check"></span>
+                    <span class="item-title">Privacy</span>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="header">
+                    <div class="header-with-search">
+                        <div class="header-with-search-left">
+                            <div class="search-icon">
+                                <span class="mdi mdi-magnify"></span>
+                            </div>
+                            <div class="search-input">
+                                <input type="text" id="search">
+                            </div>
+                        </div >
+                        <div class="header-with-search-right">
+                            <div class="search-mess">
+                                <span class="mdi mdi-bell-ring-outline"></span>
+                            </div>
+                            <div class="user">
+                                <img src="./assets/image/user-avatar.jpg" class="user-image" alt="">
+                                <p class="user-info">Morgan Oakley</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-without-search">
+                        <div class="header-without-search-left">
+                            <img src="./assets/image/user-avatar.jpg" class="header-without-search-user-image" alt="">
+                            <div class="header-without-search-user-info">
+                                <p class="header-without-search-user-title">Hi there,</p>
+                                <p class="header-without-search-user-name">Morgan Oakley (@morgan)</p>
+                            </div>
+                        </div>
+                        <div class="header-without-search-right">
+                            <button class="btn">New</button>
+                            <button class="btn">Upload</button>
+                            <button class="btn">Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="section">
+                    <h1 class="content-title">Your Projects</h1>
+                    <div class="row">
+                        <div class="col-6 card">
+                            <p class="card-title">Super Cool Project</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                        <div class="col-6 card">
+                            <p class="card-title">Less Cool Project</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 card">
+                            <p class="card-title">Impossible App</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                        <div class="col-6 card">
+                            <p class="card-title">Easy Peasy App</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 card">
+                            <p class="card-title">Ad Blocker</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                        <div class="col-6 card">
+                            <p class="card-title">Money Maker</p>
+                            <p class="card-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto porro quaerat voluptatum, consequuntur iure? Facilis sit quaerat harum aperiam totam vero iste neque aliquid, voluptatibus eum omnis fugiat ex!</p>
+                            <div class="card-icons">
+                                <span class="mdi mdi-star-plus-outline"></span>
+                                <span class="mdi mdi-eye-plus-outline"></span>
+                                <span class="mdi mdi-source-fork"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aside">
+                    <div class="aside-item">
+                        <h1 class="content-title">Announcements</h1>
+                        <div class="aside-card announcement">
+                            <div class="announcement-item">
+                                <div class="announcement-item-title">Site Maintenance</div>
+                                <p class="announcement-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia dicta quos, obcaecati repellat possimus distinctio deleniti culpa voluptatum cupiditate laborum nobis dolores!</p>
+                            </div>
+                            <div class="announcement-item">
+                                <div class="announcement-item-title">Site Maintenance</div>
+                                <p class="announcement-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia dicta quos, obcaecati repellat possimus distinctio deleniti culpa voluptatum cupiditate laborum nobis dolores!</p>
+                            </div>
+                            <div class="announcement-item">
+                                <div class="announcement-item-title">Site Maintenance</div>
+                                <p class="announcement-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quia dicta quos, obcaecati repellat possimus distinctio deleniti culpa voluptatum cupiditate laborum nobis dolores!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aside-item">
+                        <h1 class="content-title">Trending</h1>
+                        <div class="aside-card">
+                            <div class="trend-user">
+                                <div class="trend-user-avatar">
+                                    <img src="./assets/image/use1.jpg" alt="">
+                                </div>
+                                <div class="trend-user-info">
+                                    <div class="trend-user-name">@tegan</div>
+                                    <div class="trend-user-des">World Peace Builder</div>
+                                </div>
+                            </div >
+                            <div class="trend-user">
+                                <div class="trend-user-avatar">
+                                    <img src="./assets/image/user-avatar.jpg" alt="">
+                                </div>
+                                <div class="trend-user-info">
+                                    <div class="trend-user-name">@morgan</div>
+                                    <div class="trend-user-des">Super Cool Project</div>
+                                </div>
+                            </div >
+                            <div class="trend-user">
+                                <div class="trend-user-avatar">
+                                    <img src="./assets/image/use2.webp" alt="">
+                                </div>
+                                <div class="trend-user-info">
+                                    <div class="trend-user-name">@kendall</div>
+                                    <div class="trend-user-des">Life Changing App</div>
+                                </div>
+                            </div >
+                            <div class="trend-user">
+                                <div class="trend-user-avatar">
+                                    <img src="./assets/image/" alt="">
+                                </div>
+                                <div class="trend-user-info">
+                                    <div class="trend-user-name">@alex</div>
+                                    <div class="trend-user-des">No Traffic Maker</div>
+                                </div>
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
